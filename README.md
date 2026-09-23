@@ -1,6 +1,6 @@
 # Brightspace TL;DR
 
-A tiny Chrome extension that collapses giant assignment descriptions on the Brightspace Work To Do page, so you can actually see what's due.
+A Chrome extension that collapses gigantic Brightspace assignment descriptions so you can actually see what's due.
 
 ## Before
 
