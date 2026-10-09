@@ -1,11 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Brightspace TL;DR",
-  "version": "1.0",
-  "description": "Collapses giant assignment descriptions on Brightspace Work To Do.",
+  "version": "1.1",
+  "description": "Collapses giant assignment descriptions and adds a kanban board to Brightspace Work To Do.",
+  "permissions": ["storage"],
   "content_scripts": [{
     "matches": ["https://lms.nait.ca/*"],
     "js": ["content.js"],
     "all_frames": true
+  }, {
+    "matches": ["https://lms.nait.ca/d2l/le/worktodo/*"],
+    "js": ["dates.js", "board.js"]
   }]
 }
