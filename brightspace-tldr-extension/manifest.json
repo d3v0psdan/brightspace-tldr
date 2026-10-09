@@ -10,6 +10,6 @@
     "all_frames": true
   }, {
     "matches": ["https://lms.nait.ca/d2l/le/worktodo/*"],
-    "js": ["dates.js", "board.js"]
+    "js": ["dates.js", "icons.js", "board.js"]
   }]
 }
